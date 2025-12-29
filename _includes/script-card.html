@@ -1,0 +1,20 @@
+<article class="script-card"
+  data-date="{{ script.date | date: '%Y-%m-%d' }}"
+  data-title="{{ script.title }}"
+  data-type="{{ script.type }}"
+  data-tags="{{ script.tags | join: ',' }}">
+  <a href="{{ script.url | relative_url }}" class="script-card-link">
+    <div class="script-card-content">
+      <h3 class="script-card-title">{{ script.title }}</h3>
+
+      <p class="script-card-description">
+        {{ script.description | truncate: 120 }}
+      </p>
+
+      <div class="script-card-meta">
+        <span class="script-card-date">{{ script.date | date: "%B %d, %Y" }}</span>
+        <span class="script-card-wordcount">{{ script.word_count }} words</span>
+      </div>
+    </div>
+  </a>
+</article>
