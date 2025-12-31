@@ -162,8 +162,8 @@ em, i {
 
 .main-content {
   flex: 1;
-  width: 100%;
-  max-width: 1400px;
+  width: 75%;
+  max-width: none;
   margin: 0 auto;
   padding: var(--spacing-lg) var(--spacing-md);
 }
@@ -188,7 +188,7 @@ em, i {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -285,7 +285,7 @@ em, i {
 }
 
 .footer-content {
-  max-width: 1400px;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -408,7 +408,8 @@ em, i {
 
 .hero-content {
   text-align: center;
-  max-width: 900px;
+  width: 75%;
+  max-width: none;
   position: relative;
 }
 
@@ -487,7 +488,7 @@ em, i {
 }
 
 .home-content {
-  max-width: 900px;
+  width: 75%;
   margin: 0 auto;
   padding: var(--spacing-xl) var(--spacing-md);
 }
@@ -547,7 +548,6 @@ em, i {
   font-family: var(--font-body);
   font-size: 1.125rem;
   color: var(--color-text-secondary);
-  max-width: 700px;
   margin: var(--spacing-md) auto 0;
 }
 
@@ -556,7 +556,7 @@ em, i {
    ============================================ */
 
 .scripts-page {
-  max-width: 1400px;
+  width: 75%;
   margin: 0 auto;
   padding: var(--spacing-lg) var(--spacing-md);
 }
@@ -768,7 +768,7 @@ em, i {
    ============================================ */
 
 .script-page {
-  max-width: 1400px;
+  width: 75%;
   margin: 0 auto;
   padding: var(--spacing-lg) var(--spacing-md);
 }
@@ -934,7 +934,7 @@ em, i {
    ============================================ */
 
 .page-container {
-  max-width: 900px;
+  width: 75%;
   margin: 0 auto;
   padding: var(--spacing-lg) var(--spacing-md);
 }
@@ -980,13 +980,13 @@ em, i {
 }
 
 .container {
-  max-width: 1200px;
+  width: 75%;
   margin: 0 auto;
   padding: 0 var(--spacing-md);
 }
 
 .container-narrow {
-  max-width: 700px;
+  width: 75%;
   margin: 0 auto;
   padding: 0 var(--spacing-md);
 }
@@ -1007,6 +1007,19 @@ em, i {
   h2 {
     font-size: 2rem;
   }
+
+  .main-content,
+  .site-nav,
+  .footer-content,
+  .hero-content,
+  .home-content,
+  .scripts-page,
+  .script-page,
+  .page-container,
+  .container,
+  .container-narrow {
+    width: 85%;
+  }
 }
 
 @media (max-width: 640px) {
@@ -1020,6 +1033,19 @@ em, i {
 
   h2 {
     font-size: 1.75rem;
+  }
+
+  .main-content,
+  .site-nav,
+  .footer-content,
+  .hero-content,
+  .home-content,
+  .scripts-page,
+  .script-page,
+  .page-container,
+  .container,
+  .container-narrow {
+    width: 95%;
   }
 
   .main-content {

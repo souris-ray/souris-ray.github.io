@@ -1,44 +1,131 @@
 ---
 layout: page
 title: About
-description: Learn more about my approach to ASMR scriptwriting
+description: Learn more about my approach to scriptwriting
 ---
 
 {:.about-content}
 
+{:.welcome-section}
 
-## Welcome
-
-Hello, and thank you for visiting. I'm Souris Ray, an ASMR scriptwriter dedicated to crafting immersive audio experiences that provide comfort, relaxation, and escape.
-
-## My Approach
-
-Each script I create is designed with intention—whether it's to help you unwind after a long day, drift into peaceful sleep, or simply provide a moment of calm in a chaotic world. I believe in the power of atmosphere, careful pacing, and attention to detail.
-
-My work draws inspiration from cozy libraries, gentle rainstorms, vintage bookshops, and quiet moments of solitude. I aim to create spaces through words—sanctuaries you can return to whenever you need them.
+<div class="welcome-container">
+  <div class="welcome-image">
+    <img src="{{ site.baseurl }}/assets/images/profile.jpg" alt="Souris Ray">
+    <p class="image-credit">Art Credit: joy_oops</p>
+  </div>
+  <div class="welcome-text">
+    <h2>Welcome</h2>
+    <p>You've arrived at a quiet place. I'm Souris Ray, and these are my scripts - writeen slowly, offered openly, waiting patiently for voices yet to come. Make yourself comfortable. I hope you find something worth staying for.</p>
+  </div>
+</div>
 
 ## Philosophy
 
-ASMR is deeply personal. What brings comfort to one person may differ entirely from another. That's why I strive to create diverse scripts—from ambient soundscapes to intimate roleplays, from study companions to sleep aids. There's something here for everyone seeking a moment of peace.
+I believe a script should build towards something complete. The story itself can be simple, but the progression must be clear, logical, and earned. What I car about is emotional complexity. Real feeling is rarely one piece at a time. We as human carry contradictions. We react in ways shaped by experiences no one else shares. Two people in the same momnet may feel entirely differently, and both are valid and true.
+I would like my script to reflect that. Through simple stories, I try to show the nuance of what it means to feel.
+
+## My Approach
+
+Every script beings with a single thread: a character and a moment that can be captured in one sentence. From there, I build outward - designing each act, then filling in the details until the story feels complete.
+
+I believe in clear sturctures. It keeps the story honest and helps it breathe. But sturcutre alone isn't enough. A script needs to communicate intention - not just what happens, but why it matters and how it should feel. That's why my scripts are rich with acting notes and sound cues. These scripts may be recorded by actors who I may never speak to, so the script itself must do the work of a converstaion. Every pause is deliberate, and every note is there to help the actor understand what lives beneath the words. Even if the voice actors choose to interpret things differently, I believe it matters to understand the original intention first. Improvisation is the most powerful when it comes from a place of understanding.
+
+Emotionally, I like the script to take things slow I build graduatlly, relying on the voice itself to carry the feeling. Strong prosody and subtle shifts create a performance that earns its emotional peaks. Sound cues are there to support but not to replace scene building, to hint at what's coming, and to appeal to something felt before it's understood.
 
 ## Collaboration
 
-I welcome collaborations with voice artists, sound designers, and fellow creators. If you're interested in bringing one of my scripts to life, please reach out. I'm always excited to see how different artists interpret and enhance the worlds I've written.
+All scripts are open-source and free to record unless explicitly marked otherwise.
+
+I only ask that if you plan to use a script, you let me know beforehand. I appreciate hearing from voices who connect with my work.
+
+I'm not currently open to commissions or requests, but I welcome suggestions for themes. If there's a feeling or scenario you'd like to see explored, I'm always listening.
+
+Before recording, please visit the [guidelines ]({{ site.baseurl }}/guidelines) page. It covers everything you need to know about credit, usage, and how to approach these scripts with care.
 
 ---
 {:.ornamental-divider}
 
 ## Connect With Me
 
-The best way to reach me is through Discord. Join our community to discuss scripts, share feedback, or just chat about all things ASMR.
+The best way to reach me is through Discord. Join the community to discuss scripts, share feedback, or just chat.
 
 {:.contact-buttons}
-[Join Our Discord]({{ site.discord_url }}){:.btn .btn-primary target="_blank" rel="noopener noreferrer"}
+[Join the Discord]({{ site.discord_url }}){:.btn .btn-primary target="_blank" rel="noopener noreferrer"}
 
 <style>
 .about-content {
-  max-width: 700px;
+  width: 100%;
   margin: 0 auto;
+}
+
+/* Welcome Section with Image */
+.welcome-section {
+  margin-bottom: 4rem;
+}
+
+.welcome-container {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 3rem;
+  align-items: start;
+  margin-bottom: 3rem;
+}
+
+.welcome-image {
+  position: relative;
+}
+
+.welcome-image img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--color-gold-antique);
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+}
+
+.welcome-image img:hover {
+  box-shadow: var(--shadow-lg), var(--shadow-glow-gold);
+  transform: translateY(-4px);
+}
+
+.image-credit {
+  font-family: var(--font-label);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  text-align: center;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
+.welcome-text h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  color: var(--color-gold-antique);
+  font-family: var(--font-heading);
+  font-size: 2rem;
+}
+
+.welcome-text p {
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* Responsive: Stack image on top for smaller screens */
+@media (max-width: 768px) {
+  .welcome-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .welcome-image {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .welcome-text {
+    text-align: center;
+  }
 }
 
 .about-content h2 {
