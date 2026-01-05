@@ -32,6 +32,9 @@ I believe in clear sturctures. It keeps the story honest and helps it breathe. B
 
 Emotionally, I like the script to take things slow I build graduatlly, relying on the voice itself to carry the feeling. Strong prosody and subtle shifts create a performance that earns its emotional peaks. Sound cues are there to support but not to replace scene building, to hint at what's coming, and to appeal to something felt before it's understood.
 
+On a separate note, I write in LaTeX. It's partly for ease of formatting - the raw language helps me see the script as it will be experienced. It's also a work habit. I've worked this way long enough that the format itself has become part of how I draft through a script. In addition, I'm still exploring different approaches to writing. Some scripts lean more heavily on first perosn narration, others on dialogue. Some are spare and minimal, others more layered. That means there may be inconsistencies across scripts - in style, in density, in how much I lean on certain techniques. I'm learning what works, and what resonates, and I'm not done figuring that out yet.
+
+
 ## Collaboration
 
 All scripts are open-source and free to record unless explicitly marked otherwise.
