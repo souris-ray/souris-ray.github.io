@@ -19,7 +19,7 @@ description: How to use these scripts, licensing information, and terms
 <div class="faq-item">
   <button class="faq-question">Do I need permission to record a script?</button>
   <div class="faq-answer">
-    <p>No. All scripts are open-source and free to use. However, I ask that you notify me before recording by filling out the form on this website. This is not for approval - it's simply for my records.</p>
+    <p>No. All scripts are open-source and free to use. However, I ask that you notify me before recording by filling out the form on this website. This is not for approval - it's for record keeping.</p>
   </div>
 </div>
 
@@ -48,7 +48,7 @@ description: How to use these scripts, licensing information, and terms
 <div class="faq-item">
   <button class="faq-question">Do I have to follow the acting notes and SFX cues?</button>
   <div class="faq-answer">
-    <p>These are recommendations to help you understand my intentions. They are not mandatory, but I encourage you to read them before recording - even if you choose to interpret things differently.</p>
+    <p>These are recommendations to help you understand the script's intentions. It is not mandatory, but I encourage you to read them before recording - even if you choose to interpret things differently.</p>
   </div>
 </div>
 
@@ -62,7 +62,7 @@ description: How to use these scripts, licensing information, and terms
 <div class="faq-item">
   <button class="faq-question">Can I have someone contact you on my behalf?</button>
   <div class="faq-answer">
-    <p>Yes. If an assistant or manager is reaching out on your behalf, indicate this clearly in the form or message and include both names.</p>
+    <p>Yes. If an assistant or manager is reaching out on your behalf, please indicate this clearly in the form or message and include both names.</p>
   </div>
 </div>
 
@@ -71,7 +71,7 @@ description: How to use these scripts, licensing information, and terms
 <div class="faq-item">
   <button class="faq-question">Where can I post my recording?</button>
   <div class="faq-answer">
-    <p>You may post on most platforms, including YouTube, Twitch, Patreon, and social media. Recordings may not be posted on platforms primarily hosting explicit content.</p>
+    <p>You may post on most platforms, including YouTube, Twitch, Patreon, and Bilibili. Recordings may not be posted on platforms primarily hosting explicit content.</p>
   </div>
 </div>
 
@@ -164,7 +164,7 @@ description: How to use these scripts, licensing information, and terms
 <div class="faq-item">
   <button class="faq-question">Can I perform the script on a live stream?</button>
   <div class="faq-answer">
-    <p>Yes. You may perform scripts live on Twitch, YouTube Live, or similar platforms, as long as the platform does not primarily host explicit content. The same notification process applies - fill out the form before streaming and again after the VOD is posted.</p>
+    <p>Yes. You may perform scripts live on Twitch, YouTube Live, or similar platforms, as long as the platform does not primarily host explicit content. The same notification process applies - fill out the form before streaming and again after the VOD is posted. Credit is required in the same manner as full recordings.</p>
   </div>
 </div>
 

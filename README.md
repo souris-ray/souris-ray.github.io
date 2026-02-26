@@ -9,4 +9,4 @@ This site is designed for GitHub Pages.
 
 ---
 
-© 2025 Souris Ray. Built with care for the ASMR community.
+© 2025 Souris Ray.

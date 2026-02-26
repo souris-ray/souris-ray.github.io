@@ -4,22 +4,18 @@ layout: default
 
 <div class="hero-section">
   <div class="hero-content">
-    <div class="hero-ornament-top"></div>
-
     <h1 class="hero-title">{{ site.title }}</h1>
 
     {% if site.tagline %}
     <p class="hero-tagline">{{ site.tagline }}</p>
     {% endif %}
 
-    <div class="hero-ornament-bottom"></div>
-
     <div class="hero-cta">
-      <a href="{{ '/scripts' | relative_url }}" class="btn btn-primary btn-large">Explore Scripts</a>
+      <a href="{{ '/scripts' | relative_url }}" class="btn btn-primary btn-large magnetic-btn">Explore Scripts</a>
     </div>
 
     <div class="scroll-indicator">
-      <span>↓</span>
+      <i class="ph ph-arrow-down"></i>
     </div>
   </div>
 </div>

@@ -30,3 +30,6 @@ Thumbs.db
 
 # specific working files
 tracking.xlsx
+
+# Docker environment
+docker-compose.yml

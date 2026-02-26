@@ -3,8 +3,8 @@ title: "Soft Light, Silent Guard [CN]"
 description: "As a cold rain taps against the office windows, let your team leader's gentle guidance turn a stressful deadline into a warm, late-night sanctuary of quiet companionship"
 word_count: 1250
 date: 2025-12-12
-tags: [Workplace Healing, Team Leader, Overtime Companionship, Subtle Crush, Rainy Night, Chinese]
-type: ambience
+tags: [Workplace Healing, Overtime Companionship, Subtle Crush, Rainy Night, Chinese, M4A]
+type: soft
 pdf: /assets/pdfs/SCRIPT_caring_during_overtime.pdf
 ---
 
@@ -29,7 +29,6 @@ Role: An observant and highly capable group leader / colleague.
 Personality: He is gentle and patient, possessing a warm and steady nature that avoids being overbearing.  
 Key Traits: He is incredibly attentive, noticing small details like an empty water cup or a furrowed brow. Though he maintains a professional exterior, he is prone to adorable moments of fluster when his true feelings slip through.    
 Motivation: He finds a deep sense of fulfillment not in his own success, but in being the person the listener can rely on.  
-
 
 ## The Listener
 Role: A dedicated professional handling a high-pressure project.  
