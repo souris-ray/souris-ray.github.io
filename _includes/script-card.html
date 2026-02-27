@@ -10,7 +10,14 @@
 
       <div class="script-card-meta">
         <span class="script-card-date"><i class="ph ph-calendar-blank"></i> {{ script.date | date: "%B %d, %Y" }}</span>
-        <span class="script-card-wordcount"><i class="ph ph-file-text"></i> {{ script.word_count }} words</span>
+        <span class="script-card-wordcount">
+          <span class="wc-numbers"><i class="ph ph-file-text"></i> {{ script.total_word_count }}w / {{
+            script.spoken_word_count }}w</span>
+          <span class="wc-labels">
+            <span class="wc-label">TOTAL</span>
+            <span class="wc-label">SPOKEN</span>
+          </span>
+        </span>
       </div>
     </div>
   </a>

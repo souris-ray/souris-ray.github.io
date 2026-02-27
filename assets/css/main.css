@@ -849,7 +849,7 @@ i {
 .script-card-meta {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   font-family: var(--font-label);
   font-size: 0.85rem;
   color: var(--color-text-muted);
@@ -858,9 +858,30 @@ i {
 }
 
 .script-card-wordcount {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.1rem;
   font-variant: small-caps;
   font-weight: 600;
   color: var(--color-gold-antique);
+}
+
+
+.wc-labels {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.wc-label {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.12em;
+  font-weight: 400;
+  font-variant: normal;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
 }
 
 /* No Results */

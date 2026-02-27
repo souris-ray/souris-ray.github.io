@@ -29,7 +29,7 @@ layout: default
 
         <div class="meta-item">
           <span class="meta-label">Word Count:</span>
-          <span class="meta-value">{{ page.word_count }} words</span>
+          <span class="meta-value">{{ page.total_word_count }} words total / {{ page.spoken_word_count }} spoken</span>
         </div>
 
         {% if page.type %}
@@ -44,7 +44,7 @@ layout: default
           <span class="meta-label">Tags:</span>
           <div class="tag-list">
             {% for tag in page.tags %}
-              <span class="tag">{{ tag }}</span>
+            <span class="tag">{{ tag }}</span>
             {% endfor %}
           </div>
         </div>
