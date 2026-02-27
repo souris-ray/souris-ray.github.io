@@ -104,7 +104,6 @@ The best way to reach me is through Discord. Join the community to discuss scrip
 .welcome-text h2 {
   margin-top: 0;
   margin-bottom: 1.5rem;
-  color: var(--color-gold-antique);
   font-family: var(--font-heading);
   font-size: 2rem;
 }

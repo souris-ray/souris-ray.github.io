@@ -8,7 +8,7 @@ description: Browse my collection of ASMR scripts
   <header class="page-header">
     <h1 class="page-title">Scripts</h1>
     <div class="ornamental-divider"></div>
-    <p class="page-description">Explore my collection of ASMR scripts.</p>
+    <p class="page-description">Explore my collection of ASMR RP scripts.</p>
   </header>
 
   {% include filter-bar.html %}
@@ -16,7 +16,7 @@ description: Browse my collection of ASMR scripts
   <div class="scripts-grid" id="scripts-grid">
     {% assign sorted_scripts = site.scripts | sort: 'date' | reverse %}
     {% for script in sorted_scripts %}
-      {% include script-card.html script=script %}
+    {% include script-card.html script=script %}
     {% endfor %}
   </div>
 
